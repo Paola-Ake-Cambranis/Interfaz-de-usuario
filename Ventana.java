@@ -12,5 +12,13 @@ public class Ventana extends JFrame{
         
     }
     
-    
+    private void iniciarComponentes(){
+        
+        JPanel panel = new JPanel();
+        
+        getContentPane().add(panel);
+        
+        JLabel etiqueta = new JLabel("Lista de pendientes");
+        panel.add(etiqueta);
+    }
 }
